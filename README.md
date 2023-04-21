@@ -3,6 +3,10 @@
 ##  configure apache as a load balancer
 Let's put in place a load-balancing web solution for our DevOps team after the installation of the web servers in project 7.
 
+The architecture will look like this:
+
+![arch](./images/architecture.png)
+
 Create an Ubuntu Server 20.04 EC2 instance and name it Project-8-apache-lb. Open TCP port 80 on Project-8-apache-lb by creating an Inbound Rule in the Security Group.
 
 SSH into the Project-8-apache-lb instance and install Apache Load Balancer using the following commands:
