@@ -66,6 +66,8 @@ WBserver1 access log
 WBserver2 access log
 ![web2](./images/wb2%20with%20higher%20files.png)
 
+Here it shoows that WBserver 2 takes more traffic than WBserver 1 from load balanver. cogratulations!
+
 
 
 
